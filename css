@@ -1,0 +1,49 @@
+
+
+* {margin: 0px;}
+
+body {box-sizing: border-box; background-color: #fff;}
+
+header {background-image: url(maz.jpg);
+         background-size:cover;
+     background-position:center;
+     height:100vh;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     text-align:center;
+     padding:0 20px;
+}
+/*  color i go use later  #143628*/
+
+header h1 { color:#143628 ; 
+    font-size: 190%; 
+     text-shadow: 2px 2px 8px #fff;
+    }
+
+     header p {font-size: 130%; background-color: #fff; color: #143628; padding: 30px;border-radius: 50px;}
+
+     header a {font-size:18px;
+    text-decoration:none;
+    color:#143628;
+    border:#143628 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+    text-shadow: 2px 2px 8px white}
+
+    section {background-color: #fff; color: #143628;
+             text-align: center;padding: 20px; font-size: 120%; line-height: 25px;
+             
+    }
+
+    .b {background-color: #143628; color: #fff ;
+             text-align: center;padding: 20px;font-size: 120%; line-height: 25px;
+             
+    }
+
+
+  footer { text-align: center; padding: 20px;color: #143628; font-size: 120%;}
+
+ 
